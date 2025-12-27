@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="bg-gray-900 text-white pt-12 pb-6">
-    <div class="container mx-auto px-4">
+    <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Company Info -->
             <div>
@@ -109,15 +109,6 @@
             </div>
         </div>
 
-        <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
-            <p>
-                &copy; 1995-2023 Bindabashini Agricultural Company Pvt. Ltd. All
-                rights reserved.
-            </p>
-            <p class="mt-2 text-sm">
-                Registered in Nepal | VAT No: 123456789 | Agricultural Equipment
-                Supplier | Farming Solutions Provider
-            </p>
-        </div>
+        <x-frontend::layouts.copyright />
     </div>
 </footer>

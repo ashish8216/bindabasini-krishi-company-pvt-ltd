@@ -8,8 +8,13 @@ use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
-    public function index():View
+    public function index(): View
     {
         return view('frontend::index');
     }
+    public function about(): View
+    {
+        return view('frontend::about');
+    }
+    
 }

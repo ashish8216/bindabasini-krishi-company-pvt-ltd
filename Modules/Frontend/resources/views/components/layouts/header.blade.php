@@ -1,8 +1,8 @@
  <header class="sticky-nav bg-white">
-     <div class="container mx-auto px-4">
+
          <!-- Top Bar with Contact Info -->
-         <div class="bg-green-800 text-white py-2 hidden md:block">
-             <div class="container mx-auto px-4 flex justify-between items-center text-sm">
+         <div class="container-fluid bg-green-800 text-white py-2 hidden md:block">
+             <div class="container flex justify-between items-center text-sm">
                  <div class="flex items-center space-x-6">
                      <div class="flex items-center">
                          <i class="fas fa-phone-alt mr-2"></i>
@@ -29,7 +29,7 @@
          </div>
 
          <!-- Main Navigation -->
-         <div class="flex items-center justify-between py-4">
+         <div class="container flex items-center justify-between py-4">
              <!-- Logo -->
              <div class="flex items-center space-x-3">
                  <div class="brand-gradient w-12 h-12 rounded-xl flex items-center justify-center">
@@ -76,7 +76,7 @@
          </div>
 
          <!-- Categories Navigation -->
-         <nav class="hidden md:block border-t py-3">
+         <nav class="container hidden md:block border-t py-3">
              <div class="flex items-center justify-between">
                  <div class="flex items-center space-x-6">
                      <a href="#" class="flex items-center space-x-2 text-green-700 font-semibold">
@@ -112,7 +112,5 @@
              <a href="#" class="block py-2 text-gray-700 hover:text-green-600">Irrigation Systems</a>
              <a href="#" class="block py-2 text-gray-700 hover:text-green-600">Seeds & Fertilizers</a>
              <a href="#" class="block py-2 text-gray-700 hover:text-green-600">Protective Gear</a>
-             <a href="#" class="block py-2 text-gray-700 hover:text-green-600">咨询服务</a>
          </div>
-     </div>
  </header>

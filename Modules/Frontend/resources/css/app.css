@@ -21,6 +21,14 @@
    Utilities Layer – your custom classes
 -------------------------------------------------------------- */
 @layer utilities {
+    .container {
+        @apply mx-auto w-full px-[16px]
+    sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px]
+    xl:max-w-[1140px] 2xl:max-w-[1320px];
+    }
+    .container-fluid {
+        @apply mx-auto w-full px-[16px];
+    }
     /* Primary Button */
     .btn-primary {
         background-color: #16a34a;
