@@ -14,9 +14,9 @@
 
     <x-frontend::layouts.header />
 
-    <mind>
+    <main>
         {{ $slot }}
-    </mind>
+    </main>
 
     <x-frontend::layouts.footer />
 

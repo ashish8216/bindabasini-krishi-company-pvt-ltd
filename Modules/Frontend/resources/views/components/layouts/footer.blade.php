@@ -1,114 +1,85 @@
-<!-- Footer -->
-<footer class="bg-gray-900 text-white pt-12 pb-6">
-    <div class="container">
+<footer class="bg-green-900 text-white pt-12 pb-6">
+    <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <!-- Company Info -->
             <div>
-                <div class="flex items-center space-x-2 mb-4">
-                    <div class="brand-gradient w-10 h-10 rounded-lg flex items-center justify-center">
-                        <i class="fas fa-seedling text-white"></i>
+                <div class="flex items-center mb-4">
+                    <div class="bg-white text-green-900 p-2 rounded-lg mr-3">
+                        <i class="fas fa-tractor text-2xl"></i>
                     </div>
                     <div>
-                        <h3 class="company-logo text-xl font-bold">
-                            Bindabashini Agricultural
-                        </h3>
-                        <p class="text-xs text-gray-400">Company Pvt. Ltd.</p>
+                        <h2 class="text-xl font-bold">Bindabasini Krishi</h2>
+                        <p class="text-xs opacity-80">Agriculture Tools &amp; Equipment</p>
                     </div>
                 </div>
-                <p class="text-gray-400 mb-6">
-                    Established in 1995, we are committed to providing quality
-                    agricultural products and services to farmers across Nepal.
-                </p>
-                <div class="flex space-x-4">
-                    <a href="#" class="text-gray-400 hover:text-green-400">
-                        <i class="fab fa-facebook-f text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-green-400">
-                        <i class="fab fa-twitter text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-green-400">
-                        <i class="fab fa-instagram text-xl"></i>
-                    </a>
-                    <a href="#" class="text-gray-400 hover:text-green-400">
-                        <i class="fab fa-youtube text-xl"></i>
-                    </a>
-                </div>
+                <p class="text-sm opacity-80">Providing high-quality agricultural tools, equipment, and supplies to
+                    farmers and dealers across the region since 2010.</p>
             </div>
 
-            <!-- Quick Links -->
             <div>
                 <h3 class="text-lg font-bold mb-4">Quick Links</h3>
                 <ul class="space-y-2">
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">About Company</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Our Products</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Our Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Training Programs</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Careers</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Contact Us</a>
-                    </li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Home</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Products</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Dealer Registration</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">About Us</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Contact Us</a></li>
                 </ul>
             </div>
 
-            <!-- Product Categories -->
             <div>
-                <h3 class="text-lg font-bold mb-4">Product Categories</h3>
+                <h3 class="text-lg font-bold mb-4">Our Products</h3>
                 <ul class="space-y-2">
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Tractors & Machinery</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Hand Tools</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Irrigation Systems</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Seeds</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Fertilizers</a>
-                    </li>
-                    <li>
-                        <a href="#" class="text-gray-400 hover:text-green-400">Protective Gear</a>
-                    </li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Agriculture Tools</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Seeds &amp; Fertilizers</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Farm Machinery</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Irrigation Systems</a></li>
+                    <li><a href="#" class="opacity-80 hover:opacity-100">Protective Gear</a></li>
                 </ul>
             </div>
 
-            <!-- Contact Info -->
             <div>
-                <h3 class="text-lg font-bold mb-4">Contact Information</h3>
+                <h3 class="text-lg font-bold mb-4">Contact Us</h3>
                 <ul class="space-y-3">
-                    <li class="flex items-start space-x-3">
-                        <i class="fas fa-map-marker-alt text-green-400 mt-1"></i>
-                        <span class="text-gray-400">Kathmandu, Nepal</span>
+                    <li class="flex items-start">
+                        <i class="fas fa-map-marker-alt mt-1 mr-3"></i>
+                        <span class="opacity-80">Agriculture Complex, Butwal-11, Rupandehi, Nepal</span>
                     </li>
-                    <li class="flex items-center space-x-3">
-                        <i class="fas fa-phone text-green-400"></i>
-                        <span class="text-gray-400">+977 01-1234567</span>
+                    <li class="flex items-center">
+                        <i class="fas fa-phone mr-3"></i>
+                        <span class="opacity-80">+977 71-123456</span>
                     </li>
-                    <li class="flex items-center space-x-3">
-                        <i class="fas fa-envelope text-green-400"></i>
-                        <span class="text-gray-400">info@bindabicultural.com</span>
-                    </li>
-                    <li class="flex items-center space-x-3">
-                        <i class="fas fa-clock text-green-400"></i>
-                        <span class="text-gray-400">Mon-Sat: 9AM-6PM</span>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope mr-3"></i>
+                        <span class="opacity-80">info@bindabasinikrishi.com</span>
                     </li>
                 </ul>
+
+                <div class="mt-6">
+                    <h4 class="font-bold mb-2">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#"
+                            class="bg-green-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-green-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-green-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-green-800 w-10 h-10 rounded-full flex items-center justify-center hover:bg-green-700">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <x-frontend::layouts.copyright />
+        <div class="border-t border-green-800 mt-8 pt-6 text-center">
+            <p class="opacity-80 text-sm">© 2023 Bindabasini Krishi Company Pvt. Ltd. All rights reserved.</p>
+        </div>
     </div>
 </footer>

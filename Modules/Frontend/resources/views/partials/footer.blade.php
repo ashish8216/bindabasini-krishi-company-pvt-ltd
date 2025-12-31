@@ -1,4 +1,7 @@
+<script src="https://unpkg.com/alpinejs" defer></script>
+
 @stack('scripts')
+
 <script>
     // Mobile menu toggle
     const menuToggle = document.getElementById("menuToggle");

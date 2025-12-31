@@ -4,5 +4,4 @@
     @include('frontend::context.featured_products')
     @include('frontend::context.services')
     @include('frontend::context.testimonials')
-    @include('frontend::context.contact_cta')
 </x-frontend::index>
