@@ -17,9 +17,21 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('company_name')->nullable();
+            $table->string('pan')->nullable();
+            $table->string('company_registration')->nullable();
+            $table->string('latest_tax_clearance')->nullable();
+            $table->string('pan_vat_certificate')->nullable();
+            $table->string('contact_number')->nullable();
+            $table->string('contact_number_2')->nullable();
+            $table->string('address')->nullable();
+            $table->string('website')->nullable();
+            $table->enum('business_role', ['share_holder','province_dealer','dealer','retailer','mrp'])->default('mrp');
+            $table->enum('role', ['admin', 'agent', 'user'])->default('user');
             $table->rememberToken();
             $table->timestamps();
         });
+
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
             $table->string('email')->primary();
