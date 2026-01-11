@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Filament\Resources\Users\Tables;
+namespace App\Filament\Resources\Tags\Tables;
 
 use Filament\Actions\BulkActionGroup;
 use Filament\Actions\DeleteBulkAction;
@@ -9,7 +9,7 @@ use Filament\Actions\ViewAction;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
-class UsersTable
+class TagsTable
 {
     public static function configure(Table $table): Table
     {
@@ -17,32 +17,8 @@ class UsersTable
             ->columns([
                 TextColumn::make('name')
                     ->searchable(),
-                TextColumn::make('email')
-                    ->label('Email address')
+                TextColumn::make('slug')
                     ->searchable(),
-                TextColumn::make('email_verified_at')
-                    ->dateTime()
-                    ->sortable(),
-                TextColumn::make('company_name')
-                    ->searchable(),
-                TextColumn::make('pan')
-                    ->searchable(),
-                TextColumn::make('company_registration')
-                    ->searchable(),
-                TextColumn::make('latest_tax_clearance')
-                    ->searchable(),
-                TextColumn::make('pan_vat_certificate')
-                    ->searchable(),
-                TextColumn::make('contact_number')
-                    ->searchable(),
-                TextColumn::make('contact_number_2')
-                    ->searchable(),
-                TextColumn::make('address')
-                    ->searchable(),
-                TextColumn::make('website')
-                    ->searchable(),
-                TextColumn::make('business_role'),
-                TextColumn::make('role'),
                 TextColumn::make('created_at')
                     ->dateTime()
                     ->sortable()
